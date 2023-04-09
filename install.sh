@@ -14,8 +14,6 @@ sudo pacman -S konsole dolphin kate
 
 # Install drivers for the current device
 sudo pacman -S xf86-video-intel    # for Intel graphics
-sudo pacman -S xf86-video-amdgpu   # for AMD graphics
-sudo pacman -S nvidia             # for Nvidia graphics
 
 # Tweak system for better performance
 sudo pacman -S zram-generator    # for enabling zram
