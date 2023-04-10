@@ -24,4 +24,5 @@ Contributing
 If you would like to contribute to this project, feel free to fork the repository and submit a pull request with your changes. Any contributions are welcome!
 
 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the LICENSE file for details.
+
