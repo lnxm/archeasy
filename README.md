@@ -10,6 +10,7 @@ To use the script, simply download it from this repository and run it on your Ar
 ```
 git clone https://github.com/lnxm/archeasy.git
 cd archeasy
+chmod +x install.sh
 ./install.sh
 ```
 
