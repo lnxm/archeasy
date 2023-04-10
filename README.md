@@ -1,4 +1,6 @@
-Arch Linux Script for Newbies
+## Arch Linux Script for Newbies
+
+
 This is a script to help new users install Arch Linux on their system. The script guides the user through the installation process, from setting up the network connection to selecting the desired desktop environment and login manager.
 
 Getting Started
