@@ -1,17 +1,23 @@
-# archeasy
-arch installation script created by chatgpt just for me
+Arch Linux Script for Newbies
+This is a script to help new users install Arch Linux on their system. The script guides the user through the installation process, from setting up the network connection to selecting the desired desktop environment and login manager.
 
+Getting Started
+To use the script, simply download it from this repository and run it on your Arch Linux system. Make sure to have a stable internet connection before starting the installation process.
 
-This script will perform an automated installation of Arch Linux on your computer, with the following specifications:
+shell
+Copy code
+$ git clone https://github.com/<your-username>/arch-linux-script.git
+$ cd arch-linux-script
+$ ./install.sh
+Features
+Detects network connection and sets up mirrors for the nearest location
+Asks user if they want to install Arch Linux on a different partition for dual boot setup
+Asks user for username, hostname, timezone, language, keyboard layout, etc.
+Allows user to select desired programs to install
+Offers a choice of login managers for different desktop environments
+Checks for package availability and informs the user if a package cannot be found
+Contributing
+If you would like to contribute to this project, feel free to fork the repository and submit a pull request with your changes. Any contributions are welcome!
 
-Partitions: an EFI partition and a root partition (with no swap partition).
-Latest low latency kernel will be installed.
-Grub UEFI bootloader will be installed with Latitude E7440 compatibility.
-Drivers for Latitude E7440 will be installed.
-KDE will be installed without unnecessary bloat.
-Brave browser, NetworkManager, Pamac, VLC, and Discord development edition (if available in AUR) will be installed.
-Various tweaks will be made to improve performance and responsiveness, including optimizing the kernel.
-neofetch will be installed and added to the terminal configuration.
-British English will be the main language, and Czech QWERTZ will be the keyboard layout for both the terminal and KDE desktop.
-Installation progress will be shown in the terminal prompt.
-During the installation process, certain steps such as partitioning and formatting will be automated and run silently in the background, while others such as package installation will display a progress message in the terminal prompt.
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
