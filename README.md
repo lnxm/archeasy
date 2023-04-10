@@ -6,11 +6,13 @@ This is a script to help new users install Arch Linux on their system. The scrip
 Getting Started
 To use the script, simply download it from this repository and run it on your Arch Linux system. Make sure to have a stable internet connection before starting the installation process.
 
-shell
-Copy code
-$ git clone https://github.com/<your-username>/arch-linux-script.git
-$ cd arch-linux-script
-$ ./install.sh
+
+```
+git clone https://github.com/<your-username>/arch-linux-script.git
+cd arch-linux-script
+./install.sh
+```
+
 Features
 Detects network connection and sets up mirrors for the nearest location
 Asks user if they want to install Arch Linux on a different partition for dual boot setup
