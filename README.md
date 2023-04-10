@@ -9,7 +9,7 @@ To use the script, simply download it from this repository and run it on your Ar
 
 ```
 git clone https://github.com/lnxm/archeasy.git
-cd arch-linux-script
+cd archeasy
 ./install.sh
 ```
 
