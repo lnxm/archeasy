@@ -8,7 +8,7 @@ To use the script, simply download it from this repository and run it on your Ar
 
 
 ```
-git clone https://github.com/<your-username>/arch-linux-script.git
+git clone https://github.com/lnxm/archeasy.git
 cd arch-linux-script
 ./install.sh
 ```
